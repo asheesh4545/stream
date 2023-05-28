@@ -1,5 +1,5 @@
 import streamlit as st
-from PyPDF2 import PdfReader
+from PyPDF4 import PdfReader
 
 def extract_page_content(pdf_file, page_number):
     with open(pdf_file, 'rb') as file:
